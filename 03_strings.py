@@ -354,3 +354,20 @@ print(challenge.split(', ')) # ['thirty', 'days', 'of', 'python']
 print('------------------------------------------------------------')
 
 # title(): returns a title cased string
+challenge: 'thirty days of python'
+print(challenge.title()) # Thirty Days Of Python
+print('------------------------------------------------------------')
+
+# swapcase(): Converts all uppercase characters to lowercase and all lowercase characters to uppercase characters
+challenge = 'thirty days of python'
+print(challenge.swapcase()) # THIRTY DAYS OF PYTHON
+challenge = 'Thirty Days Of Python'
+print(challenge.swapcase()) # tHIRTY dAYS oF pYTHON
+print('------------------------------------------------------------')
+
+# startswith(): Checks if String Starts with the Specified String
+challenge = 'thirty days of python'
+print(challenge.startswith('thirty')) # True
+
+challenge = '30 days of python'
+print(challenge.startswith('thirty')) # False
